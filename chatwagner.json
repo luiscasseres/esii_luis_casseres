@@ -1,69 +1,69 @@
 {
 	user: "nietzsche",
-	datatime: "12:02:24",
+	datatime: "12/12/2016 12:02:24",
 	message: "ola bom dia!",
 	file: "",
 	emotion: ""
 }
 {
 	user: "wagner",
-	datatime: "12:04:00",
+	datatime: "12/12/2016 12:04:00",
 	message: "e ai nie como está?",
 	file: "",
 	emotion: ""
 }
 {
 	user: "nietzsche",
-	datatime: "12:04:24",
+	datatime: "12/12/2016 12:04:24",
 	message: "tudo bem. vamos marcar uma reunião para hj?",
 	file: "",
 	emotion: ""
 }
 {
 	user: "wagner",
-	datatime: "12:06:12",
+	datatime: "12/12/2016 12:06:12",
 	message: "sim que horas?",
 	file: "",
 	emotion: ""
 }
 {
 	user: "nietzsche",
-	datatime: "12:08:13",
+	datatime: "12/12/2016 12:08:13",
 	message: "às 17:00",
 	file: "",
 	emotion: ""
 }
 {
 	user: "wagner",
-	datatime: "14:02:24",
+	datatime: "12/12/2016 14:02:24",
 	message: "certo ok marcado",
 	file: "",
 	emotion: ""
 }
 {
 	user: "nietzsche",
-	datatime: "16:12:02",
+	datatime: "12/12/2016 16:12:02",
 	message: "o local vai ser la no auditório",
 	file: "",
 	emotion: ""
 }
 {
 	user: "wagner",
-	datatime: "17:02:09",
+	datatime: "12/12/2016 17:02:09",
 	message: "certo ok",
 	file: "",
 	emotion: ""
 }
 {
 	user: "nietzsche",
-	datatime: "20:15:04",
+	datatime: "12/12/2016 20:15:04",
 	message: "até",
 	file: "",
 	emotion: ""
 }
 {
 	user: "wagner",
-	datatime: "30:17:04",
+	datatime: "12/12/2016 30:17:04",
 	message: "até",
 	file: "",
 	emotion: ""
