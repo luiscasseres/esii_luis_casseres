@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e3e6f352a6a61dfcbb6f539eed1e6a2e0a548e5d">
+        <dex dex="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_41a852d208198fa22d24d42ffa9fffaf6c44497a/classes.dex" />
+    </item>
+    <item
+        jar="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6109e34678a78c82f3c46c09b36234184b41a332">
+        <dex dex="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1bb04b36d44fd1ec92b61e4db528fd9edb22c399/classes.dex" />
+    </item>
+    <item
+        jar="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="a6af5beedc2e8c946abc3771525e2fed77439309">
+        <dex dex="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0-alpha1_199f8b32c488e210d2e26d1d461a52707dea0eb7/classes.dex" />
+    </item>
+    <item
+        jar="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="9aaaea3a89040f8176f810c85e288fc74d5d1f12">
+        <dex dex="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0-alpha1_b2b02e585c2ae025e02ff8be684bb91c6ac172b6/classes.dex" />
+    </item>
+    <item
+        jar="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="cd688796dadc28f7f95db229cbfdaf91ebbb0d61">
+        <dex dex="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0-alpha1_de31a60010e3bc152ef661699aa6f7435f139376/classes.dex" />
+    </item>
+    <item
+        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0-alpha1/support-annotations-24.0.0-alpha1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="b8062546971a3d196343232a19a3c0016272ba47">
+        <dex dex="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0-alpha1_9913bbb95c9e8e6b0ae815f87ee374f0051a6038/classes.dex" />
+    </item>
+    <item
+        jar="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="9684c95278dc45a142d7de3db9e7e39aa520e1e0">
+        <dex dex="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0-alpha1_dcd7d6dda98b94e3e2bed2caf560aebc0c9dd278/classes.dex" />
+    </item>
+    <item
+        jar="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ed88e1f0c8fbf66e1da918545f0a6790f893bceb">
+        <dex dex="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0-alpha1_6f00ac5683394d1cb6410b6bdc27a6f185292317/classes.dex" />
+    </item>
+    <item
+        jar="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-alpha1/jars/libs/internal_impl-24.0.0-alpha1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e57fba0a2d57d3501d8f4ff44c23092978804845">
+        <dex dex="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0-alpha1_73682aa37c4486516869ba1b440892a4023d931c/classes.dex" />
+    </item>
+    <item
+        jar="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="1f1c7067e22acf05bddbca9f94422050cd848a86">
+        <dex dex="/home/luis/esii_luis_casseres/PrjSci/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0-alpha1_18ede35adf344df8ff44a6e71918f246e299a0f2/classes.dex" />
+    </item>
+
+</items>
