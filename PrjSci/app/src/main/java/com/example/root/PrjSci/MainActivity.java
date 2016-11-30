@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        assert tabLayout != null;
         tabLayout.setupWithViewPager(mViewPager);
 
 
@@ -130,13 +131,14 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public Fragment getItem(int position) {
 
-            if (position == 1) {
+            if (position == 0){
+                return new Calls();
+            }else if (position == 1) {
                 return new Chats();
-            } else
+            }else if (position == 2) {
+                return new Contact();
+            }else
                 return PlaceholderFragment.newInstance(position + 1);
-            // getItem is called to instantiate the fragment for the given page.
-            // Return a PlaceholderFragment (defined as a static inner class below).
-
         }
 
         @Override
