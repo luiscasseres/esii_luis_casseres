@@ -28,8 +28,24 @@ public class Calls extends Fragment {
         msgListView.setStackFromBottom(false);
 
         String[] calls = new String[] {
-                "Cape Gooseberry",
-                "Capuli cherry"
+                "João da Silva \n" +
+                        " Ontem",
+                "Maria Teresa dos Santos \n" +
+                        " Ontem",
+                "Ana Vicente \n" +
+                        " Ontem",
+                "Carlos Alberto do Santos \n" +
+                        " Ontem",
+                "Carla Gonsalves \n" +
+                        " Ontem",
+                "Pedro Dias da SIlva \n" +
+                        " Ontem",
+                "Anabel Villela \n" +
+                        " Hoje",
+                "Luis Anderson Castro \n" +
+                        " Hoje",
+                "Martinho dos Reis \n" +
+                        " Hoje"
         };
 
         final List<String> callsList = new ArrayList<String>(Arrays.asList(calls));

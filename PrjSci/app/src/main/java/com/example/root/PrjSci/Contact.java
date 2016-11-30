@@ -32,8 +32,24 @@ public class Contact extends Fragment {
         msgListView.setStackFromBottom(true);
 
         String[] contact = new String[] {
-                "Cape Gooseberry",
-                "Capuli cherry"
+                "João da Silva \n" +
+                        " Disponível",
+                "Maria Teresa dos Santos \n" +
+                        " Disponível",
+                "Ana Vicente \n" +
+                        " Disponível",
+                "Carlos Alberto do Santos \n" +
+                        " Disponível",
+                "Carla Gonsalves \n" +
+                        " Disponível",
+                "Pedro Dias da SIlva \n" +
+                        " Disponível",
+                "Anabel Villela \n" +
+                        " Disponível",
+                "Luis Anderson Castro \n" +
+                        " Disponível",
+                "Martinho dos Reis \n" +
+                        " Não disponível no momento"
         };
 
         final List<String> constactList = new ArrayList<String>(Arrays.asList(contact));
