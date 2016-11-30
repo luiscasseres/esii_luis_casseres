@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.root.prjwhatsapp20.R;
+import com.example.root.PrjSci.R;
 
 public class MainChatActivity extends AppCompatActivity {
 

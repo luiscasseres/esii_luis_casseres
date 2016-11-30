@@ -17,7 +17,7 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
-import com.example.root.prjwhatsapp20.R;
+import com.example.root.PrjSci.R;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -13,7 +13,7 @@ import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.root.prjwhatsapp20.R;
+import com.example.root.PrjSci.R;
 
 public class ChatAdapter extends BaseAdapter {
 

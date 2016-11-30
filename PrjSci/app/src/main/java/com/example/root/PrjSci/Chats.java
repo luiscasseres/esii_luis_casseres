@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ListView;
 
-import com.example.root.prjwhatsapp20.R;
+import com.example.root.PrjSci.R;
 
 import java.util.ArrayList;
 import java.util.Random;
