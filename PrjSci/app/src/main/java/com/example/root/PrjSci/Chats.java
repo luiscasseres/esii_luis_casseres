@@ -1,76 +1,77 @@
 package com.example.root.PrjSci;
 
+import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
-import android.widget.ImageButton;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.example.root.PrjSci.R;
 
 import java.util.ArrayList;
-import java.util.Random;
+import java.util.Arrays;
+import java.util.List;
 
-public class Chats extends Fragment implements View.OnClickListener {
+public class Chats extends Fragment {
 
-    private EditText msg_edittext;
-    private String user1 = "", user2 = "";
-    private Random random;
-    public static ArrayList<ChatMessage> chatlist;
-    public static ChatAdapter chatAdapter;
     ListView msgListView;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.chat_layout, container, false);
-        random = new Random();
+        View view = inflater.inflate(R.layout.chats_layout, container, false);
 
-        msg_edittext = (EditText) view.findViewById(R.id.messageEditText);
-        msgListView = (ListView) view.findViewById(R.id.msgListView);
-        ImageButton sendButton = (ImageButton) view
-                .findViewById(R.id.sendMessageButton);
-        sendButton.setOnClickListener(this);
-
-        // ----Set autoscroll of listview when a new message arrives----//
+        msgListView = (ListView) view.findViewById(R.id.msgListViewChats);
         msgListView.setTranscriptMode(ListView.TRANSCRIPT_MODE_ALWAYS_SCROLL);
-        msgListView.setStackFromBottom(true);
+        msgListView.setStackFromBottom(false);
 
-        chatlist = new ArrayList<ChatMessage>();
-        chatAdapter = new ChatAdapter(getActivity(), chatlist);
-        msgListView.setAdapter(chatAdapter);
+        String[] calls = new String[] {
+                "João da Silva \n" +
+                        " Ontem",
+                "Maria Teresa dos Santos \n" +
+                        " Ontem",
+                "Ana Vicente \n" +
+                        " Ontem",
+                "Carlos Alberto do Santos \n" +
+                        " Ontem",
+                "Carla Gonçalves \n" +
+                        " Ontem",
+                "Pedro Dias da SIlva \n" +
+                        " Ontem",
+                "Anabel Villela \n" +
+                        " Hoje",
+                "Luis Anderson Castro \n" +
+                        " Hoje",
+                "Martinho dos Reis \n" +
+                        " Hoje"
+        };
+
+        final List<String> chatsList = new ArrayList<String>(Arrays.asList(calls));
+
+
+        final ArrayAdapter<String> chatsAdapter = new ArrayAdapter<String>
+                (getActivity(), android.R.layout.simple_list_item_1, chatsList);
+
+        msgListView.setAdapter(chatsAdapter);
+
+        msgListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+            public void onItemClick(AdapterView<?> adapter, View view, int position, long arg) {
+                Intent chatInfo = new Intent(Chats.this.getContext(), ChatActivity.class);
+                chatInfo.putExtra("NAME",chatsList.get(position));
+                startActivity(chatInfo);
+            }
+        });
+
         return view;
     }
 
     @Override
     public void onSaveInstanceState(Bundle outState) {
-    }
-
-    public void sendTextMessage(View v) {
-        String message = msg_edittext.getEditableText().toString();
-        if (!message.equalsIgnoreCase("")) {
-            final ChatMessage chatMessage = new ChatMessage(user1, user2,
-                    message, "" + random.nextInt(1000), true);
-            chatMessage.setMsgID();
-            chatMessage.body = message;
-            chatMessage.Date = CommonMethods.getCurrentDate();
-            chatMessage.Time = CommonMethods.getCurrentTime();
-            msg_edittext.setText("");
-            chatAdapter.add(chatMessage);
-            chatAdapter.notifyDataSetChanged();
-        }
-    }
-
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.sendMessageButton:
-                sendTextMessage(v);
-
-        }
     }
 
 }

@@ -40,7 +40,7 @@ public class Contact extends Fragment {
                         " Disponível",
                 "Carlos Alberto do Santos \n" +
                         " Disponível",
-                "Carla Gonsalves \n" +
+                "Carla Gonçalves \n" +
                         " Disponível",
                 "Pedro Dias da SIlva \n" +
                         " Disponível",

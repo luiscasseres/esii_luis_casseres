@@ -36,7 +36,7 @@ public class Calls extends Fragment {
                         " Ontem",
                 "Carlos Alberto do Santos \n" +
                         " Ontem",
-                "Carla Gonsalves \n" +
+                "Carla Gonçalves \n" +
                         " Ontem",
                 "Pedro Dias da SIlva \n" +
                         " Ontem",
