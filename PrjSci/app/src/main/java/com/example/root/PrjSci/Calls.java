@@ -50,7 +50,7 @@ public class Calls extends Fragment {
 
         final List<String> callsList = new ArrayList<String>(Arrays.asList(calls));
 
-        // Create an ArrayAdapter from List
+        // Cria ArrqyAdapeter a partir do ArrayList
         final ArrayAdapter<String> callsAdapter = new ArrayAdapter<String>
                 (getActivity(), android.R.layout.simple_list_item_1, callsList);
 

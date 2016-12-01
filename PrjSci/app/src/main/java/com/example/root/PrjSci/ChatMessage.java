@@ -9,6 +9,7 @@ public class ChatMessage {
     public String msgid;
     public boolean isMine;// Did I send the message.
 
+    //Classe para carregar mensagens
     public ChatMessage(String Sender, String Receiver, String messageString,
                        String ID, boolean isMINE) {
         body = messageString;

@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 import com.example.root.PrjSci.R;
 
+//Classe formatadora das mensagens
 public class ChatAdapter extends BaseAdapter {
 
     private static LayoutInflater inflater = null;
@@ -56,12 +57,12 @@ public class ChatAdapter extends BaseAdapter {
         LinearLayout parent_layout = (LinearLayout) vi
                 .findViewById(R.id.bubble_layout_parent);
 
-        // if message is mine then align to right
+        // Alinha a mensagem a direita
         if (message.isMine) {
             layout.setBackgroundResource(R.drawable.bubble2);
             parent_layout.setGravity(Gravity.RIGHT);
         }
-        // If not mine then align to left
+        // Alinha a mensagem a esquerda
         else {
             layout.setBackgroundResource(R.drawable.bubble1);
             parent_layout.setGravity(Gravity.LEFT);

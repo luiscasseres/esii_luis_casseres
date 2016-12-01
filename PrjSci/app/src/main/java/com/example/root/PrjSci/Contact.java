@@ -54,7 +54,7 @@ public class Contact extends Fragment {
 
         final List<String> constactList = new ArrayList<String>(Arrays.asList(contact));
 
-        // Create an ArrayAdapter from List
+        // Cria ArrayAdapter a partir do ArrayList
         final ArrayAdapter<String> contactAdapter = new ArrayAdapter<String>
                 (getActivity(), android.R.layout.simple_list_item_1, constactList);
 
